@@ -12,9 +12,14 @@ function openNavBar () {
 
 }
 
+function clearMenu(){
+    let menu =  document.getElementsByClassName('navDrawer')[0];
+    menu.style.visibility = 'hidden'
+}
 
 function makeGetRequest() {
     let datas;
+    clearMenu();
     fetch('http://localhost:3000/').then(function (response) {
         // The API call was successful!
         return response.json();
@@ -31,5 +36,6 @@ function makeGetRequest() {
     }
 
 function clearApi() {
+    clearMenu();
     document.getElementById("response").innerHTML = "Info cleared";
 }
