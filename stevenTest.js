@@ -2,12 +2,12 @@
 
 function openNavBar () {
    let menu =  document.getElementsByClassName('navDrawer')[0];
-   if(menu.style.visibility == 'hidden'){
-    menu.style.visibility = 'visible'
+   if(menu.style.visibility == 'visible'){
+    menu.style.visibility = 'hidden'
     console.log(menu.style.visibility);
    }
    else{
-    menu.style.visibility = 'hidden'
+    menu.style.visibility = 'visible'
    }
 
 }
