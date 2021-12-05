@@ -12,6 +12,7 @@ function openNavBar () {
 
 }
 
+
 function clearMenu(){
     let menu =  document.getElementsByClassName('navDrawer')[0];
     menu.style.visibility = 'hidden'
