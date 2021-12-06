@@ -136,16 +136,16 @@ const toggleHelp =`
 <h3 id="steps-to-setup-html-and-css-to-get-ready-to-toggle-">Steps to setup html and css to get ready to toggle:</h3>
 <ul>
 <li>First, add an attribute in css on your navigation drawer div class called visibility and set it to &quot;hidden&quot; <strong>(visibility: hidden)</strong>. This should immediately result in you no longer being able to see the navigation drawer. Changing this attribute to visible <strong>(visibility: visible)</strong>, will allow you to see the navigation drawer again. </li>
-<li>Toggling will involve 1 Javascript function in main.js. You can name the function openNavMenu(), but we aren&#39;t quite there yet.</li>
+<li>Toggling will involve 1 Javascript function in main.js. You can name the function <strong>openNavMenu()</strong>, but we aren&#39;t quite there yet.</li>
 <li>Before you build out the function, we will add an onClick event to the menu div (not the navigation drawer div, the menu icon div) to set off the function once it is clicked. Here is an example:<ul>
 <li><strong>&lt; div class=&quot;hamburger&quot; onClick =&#39;openNavMenu()&#39;&gt; &lt; img src=&#39;HAMBURGER IMAGE HERE&#39;&gt; &lt; /div&gt;</strong> (The onClick=&#39;&#39; is the important part)</li>
 </ul>
 </li>
-<li>Now you have set up an event that will happen if the the div is clicked. It will call the function (that you still need to write) openNavBar() that lives in main.js. You have also set up the css attribute to hide or display a div. Changing this css attribute with javascript in the openNavMenu() function is how we will toggle the navigation drawer. You are all set up except for the function. Let&#39;s get to it!</li>
+<li>Now you have set up an event that will happen if the the div is clicked. It will call the function (that you still need to write) <strong>openNavBar() that lives in main.js.</strong> You have also set up the css attribute to hide or display a div. Changing this css attribute with javascript in the openNavMenu() function is how we will toggle the navigation drawer. You are all set up except for the function. Let&#39;s get to it!</li>
 </ul>
 <h3 id="setting-up-your-javascript-function-in-main-js-and-finishing-up-toggle-">Setting up your javascript function in main.js and finishing up toggle:</h3>
 <ul>
-<li>First, create a function in main.js called openNavMenu()<ul>
+<li>First, create a function in main.js called <strong>openNavMenu()</strong><ul>
 <li>In this function, you will need to do 3 things. Get the div you want to work with, check the current value of the visibility attribute on that div (hidden or visible), and then set the visibility attribute to the opposite to whatever it is currently. If it&#39;s currently visible, change it to hidden, if it&#39;s currently hidden, change it to visible. All work under this will happen inside of the openNavMenu function you have created.</li>
 </ul>
 </li>
