@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="stevenTest.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Sumos are cool</title>
 </head>
 <body>
-    <div class='navContainer'>
-        <div class="topNavBar">
-            <div class="hamburger" id='menu' onClick = 'openNavBar()'> 
-                <img src='./assets/menuIcon.png' width='40px' padding='2px'/>
-            </div>
-            <div class="title">
-                <h1>Ultimate Sumo Match</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand" href="#">Sumos</a>
+            <div class="float-left">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="./tournaments.html">Sumo Tournament</a></li>
+                            <li><a class="dropdown-item" href="./rankings.html">Rankings</a></li>
+                            <li><a class="dropdown-item" href="./settings.html">Settings</a></li>
+                            <li><a class="dropdown-item" href="./account.html">Account</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
+        </div>
+      </nav>
 
-        <div class='navDrawer'>
-            <div class='navItems'>
-                <h4 onClick="document.location = './index.html'">Home</h4>
-                <h4 onClick="document.location = './tournaments.html'">Sumo Tournament</h4>
-                <h4 onClick="document.location = './rankings.html'">Rankings</h4>
-                <h4 onClick="document.location = './settings.html'">Settings</h4>
-                <h4 onClick="document.location = './account.html'">Account</h4>
-            </div>
-        </div>
     </div>
     <h1 class='center'>THIS WILL BE THE ACCOUNT PAGE</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
